@@ -12,9 +12,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        options: {
-          presets: ['react', 'es2015'],
-        },
+        // options: {
+        //   presets: ['react', 'es2015'],
+        // },
       },
       {
         test: /\.css$/,
